@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectiitapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="Project IIT"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vidactivity">
+
+        </activity>
+        <activity
+            android:name=".VideoPage"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".MathPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhysicsPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Performance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChemistryPage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AboutPage" />
+        <activity
+            android:name=".MainPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
