@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526416190884",
+    "firebase_url": "https://project-iit.firebaseio.com",
+    "project_id": "project-iit",
+    "storage_bucket": "project-iit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526416190884:android:1dfd094a814b3e3f",
+        "android_client_info": {
+          "package_name": "com.example.projectiitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526416190884-iqs3gd308jrh4dle2kaa1rb4e6jhi91e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectiitapp",
+            "certificate_hash": "256eee6a3a8588c8218dfb262ae83c46217cd765"
+          }
+        },
+        {
+          "client_id": "526416190884-gkhe8t9jr0m1hmgjfr2nkveotl21hipi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwxHXc6l4YivT3pParKJ58B89G-dt-vVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526416190884-gkhe8t9jr0m1hmgjfr2nkveotl21hipi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
